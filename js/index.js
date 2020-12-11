@@ -1,4 +1,6 @@
-let correcr_ans = Math.floor((Math.random() * 3) + 1);
+let low = 1;
+let high = 10;
+let correcr_ans = Math.floor((Math.random() * high) + low);
 
 let count = 0
 for (let i = 1; i <= 3; i++) {
